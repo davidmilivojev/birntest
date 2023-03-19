@@ -147,6 +147,10 @@ Glyphs list
 #graphic {
   margin-top: 30px; }
 
+#graphic .ghbar text {
+  font-size: 9px;
+  letter-spacing: -0.4px; }
+
 #bar1 .tick text {
   -webkit-transform: translate(-10px, 6px) rotate(-12deg);
           transform: translate(-10px, 6px) rotate(-12deg); }
