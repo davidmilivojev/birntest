@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Dashboard</title>
+	<link href="./favicon.ico?v2" rel="icon">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;900&family=Open+Sans:wght@300;400;500;700;800&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+	<div class="wrapper">
+		<div class="content">
+			<h1 class="content__title">Baza podataka o javnim konkursima</h1>
+			<p class="content__about">BIRN Srbija, u partnerstvu sa Građanskim inicijativama i timom istraživača iz 17 lokalnih organizacija civilnog društva, predstavlja onlajn bazu javnih konkursa. Baza omogućava praćenje potrošnje budžetskog novca u sektorima medija i javnog informisanja, kulture i umetnosti, organizacija civilnog društva i omladine.</p>
+		</div>
+	</div>
+	<!-- temp -->
+	<main class="main">
+		<div class="wrapper">
+			<div class="container js-main">
+				<aside class="tabs">
+					<button class="tabs__button js-tab tabs__button--active">
+						<span class="tabs__icon icon-dashboard"></span>
+					</button>
+					<button class="tabs__button js-tab">
+						<span class="tabs__icon icon-table"></span>
+					</button>
+					<button class="tabs__button js-tab">
+						<span class="tabs__icon icon-download"></span>
+					</button>
+					<button class="tabs__button js-tab">
+						<span class="tabs__icon icon-filter"></span>
+					</button>
+				</aside>
+				<div class="container__inner">
+					<div class="container__content js-content container__content--active">
+						<div class="cards">
+							<div class="cards__col">
+								<div class="block js-counter">
+									<div class="block__holder">
+										<span class="block__icon icon-bar"></span>
+										<div class="block__content">
+											<div class="block__title js-title">
+												Title
+											</div>
+											<span class="block__value js-value-num">
+												0
+											</span>
+										</div>
+									</div>
+									<div class="block__controls">
+										<label class="block__item">
+											<input class="block__checkbox js-cbx" type="checkbox" name="v1">
+											2019.
+										</label>
+										<label class="block__item">
+											<input class="block__checkbox js-cbx" type="checkbox" name="v2">
+											2020.
+										</label>
+										<label class="block__item">
+											<input class="block__checkbox js-cbx" type="checkbox" name="v3">
+											2021.
+										</label>
+                                        <label class="block__item">
+											<input class="block__checkbox js-cbx" type="checkbox" name="v4">
+											2022.
+										</label>
+									</div>
+								</div>
+							</div>
+							<div class="cards__col">
+								<div class="block js-counter">
+									<div class="block__holder">
+										<span class="block__icon icon-house"></span>
+										<div class="block__content">
+											<div class="block__title js-title">
+												Title
+											</div>
+											<span class="block__value js-value-num">
+												0
+											</span>
+										</div>
+									</div>
+									<div class="block__controls">
+										<label class="block__item">
+											<input class="block__checkbox js-cbx" type="checkbox" name="v1">
+											Ministarstva
+										</label>
+										<label class="block__item">
+											<input class="block__checkbox js-cbx" type="checkbox" name="v2">
+											Sekretarijati APV
+										</label>
+										<label class="block__item">
+											<input class="block__checkbox js-cbx" type="checkbox" name="v3">
+											Lokalne samouprave
+										</label>
+									</div>
+								</div>
+							</div>
+							<div class="cards__col">
+								<div class="block js-counter">
+									<div class="block__holder">
+										<span class="block__icon icon-sector"></span>
+										<div class="block__content">
+											<div class="block__title js-title">
+												Title
+											</div>
+											<span class="block__value js-value-num">
+												0
+											</span>
+										</div>
+									</div>
+									<div class="block__controls block__controls--hidden">
+										<label class="block__item">
+											<input class="block__checkbox js-cbx" type="checkbox" name="v1">
+											2019.
+										</label>
+										<label class="block__item">
+											<input class="block__checkbox js-cbx" type="checkbox" name="v2">
+											2020.
+										</label>
+										<label class="block__item">
+											<input class="block__checkbox js-cbx" type="checkbox" name="v3">
+											2021.
+										</label>
+                                        <label class="block__item">
+											<input class="block__checkbox js-cbx" type="checkbox" name="v4">
+											2022.
+										</label>
+									</div>
+								</div>
+							</div>
+							<div class="cards__col">
+								<div class="block js-counter">
+									<div class="block__holder">
+										<span class="block__icon icon-medal"></span>
+										<div class="block__content">
+											<div class="block__title js-title">
+												Title
+											</div>
+											<span class="block__value js-value-num">
+												0
+											</span>
+										</div>
+									</div>
+									<div class="block__controls block__controls--hidden">
+										<label class="block__item">
+											<input class="block__checkbox js-cbx" type="checkbox" name="v1">
+											2019.
+										</label>
+										<label class="block__item">
+											<input class="block__checkbox js-cbx" type="checkbox" name="v2">
+											2020.
+										</label>
+										<label class="block__item">
+											<input class="block__checkbox js-cbx" type="checkbox" name="v3">
+											2021.
+										</label>
+                                        <label class="block__item">
+											<input class="block__checkbox js-cbx" type="checkbox" name="v4">
+											2022.
+										</label>
+									</div>
+								</div>
+							</div>
+							<div class="cards__col">
+								<div class="block js-counter">
+									<div class="block__holder">
+										<span class="block__icon icon-project"></span>
+										<div class="block__content">
+											<div class="block__title js-title">
+												Title
+											</div>
+											<span class="block__value js-value-num">
+												0
+											</span>
+										</div>
+									</div>
+									<div class="block__controls">
+										<label class="block__item">
+											<input class="block__checkbox js-cbx" type="checkbox" name="v1">
+											2019.
+										</label>
+										<label class="block__item">
+											<input class="block__checkbox js-cbx" type="checkbox" name="v2">
+											2020.
+										</label>
+										<label class="block__item">
+											<input class="block__checkbox js-cbx" type="checkbox" name="v3">
+											2021.
+										</label>
+                                        <label class="block__item">
+											<input class="block__checkbox js-cbx" type="checkbox" name="v4">
+											2022.
+										</label>
+									</div>
+								</div>
+							</div>
+							<div class="cards__col">
+								<div class="block js-counter">
+									<div class="block__holder">
+										<span class="block__icon icon-budget"></span>
+										<div class="block__content">
+											<div class="block__title js-title">
+												Title
+											</div>
+											<span class="block__value js-value-num">
+												0
+											</span>
+										</div>
+									</div>
+									<div class="block__controls">
+										<label class="block__item">
+											<input class="block__checkbox js-cbx" type="checkbox" name="v1">
+											2019.
+										</label>
+										<label class="block__item">
+											<input class="block__checkbox js-cbx" type="checkbox" name="v2">
+											2020.
+										</label>
+										<label class="block__item">
+											<input class="block__checkbox js-cbx" type="checkbox" name="v3">
+											2021.
+										</label>
+                                        <label class="block__item">
+											<input class="block__checkbox js-cbx" type="checkbox" name="v4">
+											2022.
+										</label>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="blocks">
+							<div class="blocks__col blocks__col--3">
+								<span class="legend"></span>
+								<div class="chart">
+									<span class="chart__title">Potrošnja po okruzima</span>
+									<svg id="map" width="380" height="280"></svg>
+								</div>
+							</div>
+							<div class="blocks__col blocks__col--3">
+								<div class="chart pie1">
+									<span class="chart__title">Potrošnja po nivoima vlasti</span>
+									<div class="chart__controls">
+										<div class="chart__inner">
+											<label>
+												<input class="cbx" type="checkbox" name="y1" id="year2019" checked>
+												2019
+											</label>
+											<label>
+												<input class="cbx" type="checkbox" name="y2" id="year2020">
+												2020
+											</label>
+											<label>
+												<input class="cbx" type="checkbox" name="y3" id="year2021">
+												2021
+											</label>
+                                            <label>
+												<input class="cbx" type="checkbox" name="y4" id="year2022">
+												2022
+											</label>
+										</div>
+									</div>
+									<svg width="380" height="280" id="pie1"></svg>
+								</div>
+							</div>
+							<div class="blocks__col blocks__col--3">
+								<div class="chart">
+									<span class="chart__title">Potrošnja po sektorima</span>
+								</div>
+								<iframe class="iframe1" src="https://flo.uri.sh/visualisation/8974660/embed?auto=1" frameborder="0" width="380" height="400"></iframe>
+							</div>
+						</div>
+						<div class="blocks">
+							<div class="blocks__col blocks__col--3">
+								<div class="chart">
+									<span class="chart__title">Najveći dobitnici</span>
+								</div>
+								<iframe src="https://flo.uri.sh/visualisation/9189152/embed?auto=1" frameborder="0" width="380" height="340"></iframe>
+							</div>
+							<div class="blocks__col blocks__col--3">
+								<div class="chart">
+									<span class="chart__title">Potrošnja po tipu 2019-2022</span>
+									<svg width="380" height="340" id="bar1"></svg>
+								</div>
+							</div>
+							<div class="blocks__col blocks__col--3">
+								<div class="chart hbar">
+									<span class="chart__title">Top 5 korisnika <span class="js-hbar">MEDIJI</span> </span>
+									<svg width="400" height="360" id="graphic"></svg>
+									<div class="blocks__radio">
+										<label>Mediji <input checked id="radio1" class="radio" type="radio" name="data"></label>
+										<label>OCD <input id="radio2" class="radio" type="radio" name="data"></label>
+										<label>Kultura <input id="radio3" class="radio" type="radio" name="data"></label>
+										<label>Omladina <input id="radio4" class="radio" type="radio" name="data"></label>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="blocks">
+							<div class="blocks__col blocks__col--4">
+								<div class="chart">
+									<span class="chart__title">Broj finansiranih projekata 2019-2022</span>
+								</div>
+								<iframe src="https://flo.uri.sh/visualisation/8879104/embed?auto=1" frameborder="0" width="280" height="380"></iframe>
+							</div>
+							<div class="blocks__col blocks__col--4">
+								<div class="chart">
+									<span class="chart__title">Registrovane i podržane organizacije</span>
+								</div>
+								<iframe src="https://flo.uri.sh/visualisation/8999253/embed?auto=1" frameborder="0" width="280" height="380"></iframe>
+							</div>
+							<div class="blocks__col blocks__col--wide blocks__col--4">
+								<span class="blocks__title">Najskuplji projekti</span>
+								<div class="table-fixed-header">
+									<table class="table-fixed-header__inner">
+										<thead>
+											<tr>
+												<th>Naziv projekta</th>
+												<th>Korisnik</th>
+												<th>Iznos</th>
+												<th>Godina</th>
+											</tr>
+										</thead>
+										<tbody>
+											<tr>
+												<td>Put do Omladinske prestonice Evrope 2019. godine - aktivnosti u 2019. godini</td>
+												<td>OMLADINSKA PRESTONICA EVROPE - OPENS</td>
+												<td>138.508.000</td>
+												<td>2019.</td>
+											</tr>
+											<tr>
+												<td>Podizanje kapaciteta dobrovoljnih vatrogasnih jedinica nabavkom odeće i materijalno-tehničkih sredstava radi povećanja programskih aktivnosti u oblasti zaštite i spasavanja</td>
+												<td>VATROGASNI SAVEZ SRBIJE</td>
+												<td>50.000.000</td>
+												<td>2020.</td>
+											</tr>
+											<tr>
+												<td>U službi javnog interesa - informisan građanin</td>
+												<td>RTV NOVI PAZAR</td>
+												<td>46.900.000</td>
+												<td>2021.</td>
+											</tr>
+											<tr>
+												<td>Javni interes naš prioritet</td>
+												<td>RTV NOVI PAZAR</td>
+												<td>45.600.000</td>
+												<td>2019.</td>
+											</tr>
+											<tr>
+												<td>Građani i javni interes na prvom mestu</td>
+												<td>RTV NOVI PAZAR</td>
+												<td>45.000.000</td>
+												<td>2020.</td>
+											</tr>
+											<tr>
+												<td>Exit festival 2021</td>
+												<td>FONDACIJA EXIT</td>
+												<td>40.000.000</td>
+												<td>2021.</td>
+											</tr>
+											<tr>
+												<td>Exit festival 2020</td>
+												<td>FONDACIJA EXIT</td>
+												<td>35.000.000</td>
+												<td>2020.</td>
+											</tr>
+											<tr>
+												<td>Nova šansa</td>
+												<td>CENTAR ZA EDUKACIJU I TRANSPARENTNOST</td>
+												<td>30.058.000</td>
+												<td>2021.</td>
+											</tr>
+											<tr>
+												<td>Mladi u centru</td>
+												<td>OMLADINSKA PRESTONICA EVROPE - OPENS</td>
+												<td>30.000.000</td>
+												<td>2021.</td>
+											</tr>
+											<tr>
+												<td>Programi podrške za osobe sa intelektualnim teškoćama i porodice</td>
+												<td>SAVEZ UDRUŽENJA ZA POMOĆ MENTALNO NEDOVOLJNO RAZVIJENIM OSOBAMA SRBIJE</td>
+												<td>29.500.000</td>
+												<td>2019.</td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="container__content js-content">
+						<div id="filterMsg">
+							<div class="loader-holder">
+								<div class="loader"></div>
+								Filteri se učitavaju. Molimo sačekajte
+							</div>
+						</div>
+						<div id="selects" class="selectric">
+							<div class="selectric__item">
+								<select name="godina" id="godina" multiple>
+								</select>
+							</div>
+							<div class="selectric__item">
+								<select name="mesto" id="mesto" multiple>
+								</select>
+							</div>
+							<div class="selectric__item">
+								<select name="organ" id="organ" multiple>
+								</select>
+							</div>
+							<div class="selectric__item">
+								<select name="sektor" id="sektor" multiple>
+								</select>
+							</div>
+							<!-- http://easyautocomplete.com/guide -->
+							<div class="selectric__item">
+								<div class="filter-autocomplete">
+									<input class="filter-autocomplete-item" id="maticni" type="text"/>
+								</div>
+							</div>
+							<div class="selectric__item">
+								<div class="filter-autocomplete">
+									<input class="filter-autocomplete-item" id="korisnik" type="text"/>
+								</div>
+							</div>
+							<div class="selectric__item">
+								<div class="filter-autocomplete">
+									<input class="filter-autocomplete-item" id="zastupnik" type="text"/>
+								</div>
+							</div>
+							<div class="selectric__item">
+								<select name="tip" id="tip" multiple>
+								</select>
+							</div>
+							<div class="selectric__item">
+								<select name="iznos" id="iznos">
+									<option value="" selected>Iznos</option>
+								</select>
+							</div>
+							<div class="content">
+								<a class="selectric__btn" href="podaci_2019-2020-2021.xlsx" download="">Preuzmi ceo set podataka</a>
+								<a class="selectric__btn" href="Uputstvo-za-citanje-podataka.pdf" download="">Uputstvo za čitanje podataka</a>
+								<button id="resetBtn" class="selectric__btn" type="button">Poništi filter</button>
+								<button id="exportCsv" class="selectric__btn" type="button">Export Excel</button>
+							</div>
+						</div>
+						<div>
+							<div class="tbl-wrap">
+								<div class="table-responsive">
+									<table id="projects" class="display">
+										<thead>
+											<tr>
+							                    <th>Naziv konkursa</th>
+							                    <th>Godina</th>
+							                    <th>Mesto</th>
+							                    <th>Organ</th>
+							                    <th>Sektor</th>
+							                    <th>Naziv projekta</th>
+							                    <th>Korisnik</th>
+							                    <th>Zastupnik</th>
+							                    <th>Tip</th>
+							                    <th>Matični</th>
+							                    <th>Iznos</th>
+									        </tr>
+										</thead>
+									</table>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="container__content js-content">
+						<div class="content">
+							<h2 class="title">Izveštaji</h2>
+							<div class="cards cards--basic">
+								<div class="cards__col">
+									<div class="block js-counter">
+										<div class="block__holder">
+											<div class="block__content">
+												<a class="block__title" href="Analiza-rizika-kod-sukoba-interesa_Mediji-i-OCD_Radna-verzija.pdf" download>
+													<span class="icon-table"></span>
+													Analiza rizika kod sukoba interesa
+												</a>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="cards__col">
+									<div class="block js-counter">
+										<div class="block__holder">
+											<div class="block__content">
+												<a class="block__title" href="Analiza-pravnog-okvira_Konkursno-sufinansiranje-projekata.pdf" download>
+													<span class="icon-table"></span>
+													Analiza pravnog okvira
+												</a>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="cards__col">
+									<div class="block js-counter">
+										<div class="block__holder">
+											<div class="block__content">
+												<a class="block__title" href="Analiza-podataka-o-javnim-konkursima.pdf" download>
+													<span class="icon-table"></span>
+													Analiza podataka o javnim konkursima na lokalu u sektorima javnog informisanja, civilnog društva, omladine i kulture za 2019. i 2020. godinu
+												</a>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="cards__col">
+									<div class="block js-counter">
+										<div class="block__holder">
+											<div class="block__content">
+												<a class="block__title" href="https://birnsrbija.rs/javni-konkursi-u-sektoru-javnog-informisanja-kulture-omladine-i-sporta/">
+													<span class="icon-table"></span>
+													Analiza podataka o javnim konkursima u sektorima javnog informisanja, civilnog društva, omladine i kulture za 2019, 2020. i 2021. zaključno sa septembrom
+												</a>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="cards__col">
+									<div class="block js-counter">
+										<div class="block__holder">
+											<div class="block__content">
+												<a class="block__title" href="https://birnsrbija.rs/javno-o-javnim-konkursima/">
+													<span class="icon-table"></span>
+													Pregled javne potrošnje u oblasti javnog informisanja, kulture, civilnog društva i omladine u periodu 2019-2021
+												</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="container__content js-content">
+						<div class="content">
+							<h2 class="title">O PROJEKTU</h2>
+							<div class="rte">
+								<h3>Zašto ovo radimo?</h4>
+								<p>Naš cilj je da utičemo na <b>povećanje transparentnosti podataka o javnim konkursima</b>, jer upravo ovaj mehanizam, kroz koji se troše velike sume budžetskog novca, treba da obezbedi finansiranje projekata od javnog interesa. O ovoj potrošnji se <b>malo zna u javnosti</b>, jer <b>ne postoje sistematizovani i dostupni, otvoreni podaci centralizovani u jedinstvenoj bazi</b>. Takođe, ni sama konkursna procedura i dokumentacija nije dovoljno ujednačena. Sve ovo otežava analizu efekata tj. <b>da li finansirani projekti zaista doprinose javnom interesu</b> i čine naše društvo boljim za sve građane.</p>
+								<br>
+								<h3>Koje probleme želimo da rešimo?</h4>
+								<p>Izradom ove do sada najobimnije baze podataka o javnim konkursima želimo da podstaknemo državne organe da <b>objavljuju podatke o javnoj potrošnji u otvorenom formatu</b>, jer će to olakšati analizu celokupnog procesa i njegovih efekata. Otvaranjem ovih podataka lakše će moći da se uoče bilo kakve nepravilnosti, kao i dobre prakse, olakšaće se evaluacija završenih projekata, a sve zajedno to će doprineti <b>boljem planiranju narednih ciklusa javnih konkursa.</b></p>
+								<p>Želimo da javni konkursi, kao glavni izvor finansiranja lokalnih medija, organizacija civilnog društva, kao i onih koje se bave kulturom i omladinom, budu <b>transparentniji, fer i jednako dostupni za sve učesnike</b> kao i da odgovaranju na realne potrebe građana.</p>
+								<p>Želimo da <b>ujednačimo konkursnu proceduru i dokumentaciju</b> tako da ona bude jedinstvena bez obzira da li govorimo o konkursima u sektoru medija i informisanja, kulture i umetnosti, omladine ili organizacija civilnog društva.</p>
+								<p>Svi naši predlozi za unapređenje javnih konkursa naslanjaće se na <b>rezultate analize podataka iz istraživanja</b>, koje sprovodimo na uzorku 169 jedinica lokalne samourave, 12 sekretarijata Autonomne Pokrajine Vojvodine i 21 ministarstvu Republike Srbije.</p>
+								<p>Projekat “Javno o javnim konkursima” partnerski sprovode Balkanska istraživačka mreža - BIRN Srbija i Građanske inicijative, uz finansijsku pomoć Britanske ambasade u Beogradu i predviđeno je da traje do aprila 2022. godine.</p>
+								<br>
+								<h3>Ko smo mi?</h3>
+								<p>Projekat “Javno o javnim konkursima” partnerski sprovode Balkanska istraživačka mreža - BIRN Srbija i Građanske inicijative, uz finansijsku pomoć Britanske ambasade u Beogradu.</p>
+								<p>Članovi našeg istraživačkog tima su:</p>
+								<ul>
+									<li>
+										17 istraživača, koji dolaze iz sektorskih lokalnih i nacionalnih organizacija, koji su zaduženi za prikupljanje dokumentacije o javnim konkursima i unos podataka u posebno dizajniranu aplikaciju:
+										<ul>
+											<li><b>Aleksandar Milijašević</b>, Dijalog Valjevo</li>
+											<li><b>Bojana Vlajović Savić</b>, Res Publica Kragujevac</li>
+											<li><b>Borka Stojić</b>, Udruženje građana <a href="http://kuda.org/">kuda.org</a> Novi Sad</li>
+											<li><b>Dragan Đorđević</b>, Odbor za ljudska prava Niš</li>
+											<li><b>Duško Medić</b>, Centar za održive zajednice</li>
+                                            <li><b>Elena Čavlin</b>,</li>
+                                            <li><b>Goran Đukić</b>, Forca Požega</li>
+                                            <li><b>Marija Milošević Tanasijević</b>, Res Publica Kragujevac</li>
+											<li><b>Miroslav Tamburić</b>, Forca Požega</li>
+                                            <li><b>Nikola Perišić</b>,</li>
+											<li><b>Petar Đurović</b>, Tim 42 Leskovac</li>
+											<li><b>Sead Biberović</b>, Urban In Novi Pazar</li>
+											<li><b>Silvija Vukašinović</b>,</li>
+											<li><b>Slaviša Milanov</b>, Udruženje građana Emblema Dimitrovgrad</li>
+											<li><b>Smiljka Jurasović</b>, Udruženje građana Negotin-Majdanpek-Kladovo-Bor- „NE-BO“</li>
+											<li><b>Zorica Miladinović</b>, Udruženje građana Kutija Niš</li>
+
+										</ul>
+									</li>
+									<li><b>Tanja Maksić</b>, BIRN Srbija na poziciji glavnog istraživača zadužena za izradu metodologije, mentorsku podršku istraživačima i pisanje finalnog izveštaja;</li>
+									<li><b>Lada Vučenović</b>, BIRN Srbija na poziciji koordinatorke istraživanja, zadužena za redovnu komunikaciju sa članovima istraživačkog tima, tehničku podršku za unos podataka, komunikaciju sa ostalim učesnicima na projektu i/ili spoljnim saradnicima i kontrolu podataka;</li>
+									<li><b>Miodrag Marković</b>, BIRN Srbija na poziciji specijaliste za konverziju dokumenata i atomatizaciju procesa unosa podataka.</li>
+								</ul>
+								<br>
+								<p>Uz istraživački imamo i tim koji vodi koaliciju za zagovaranje “Otvoreno o konkursima, OKO”:</p>
+								<ul>
+									<li><b>Ivana Teofilović</b>, Građanske inicijative, na poziciji koordinatorke rada koalicije i glavne istraživačice javnih politika, zadužena za sveukupnu koordinaciju rada koalicije i za istraživanje, koordinaciju i mentorstvo u okviru zagovaračke komponente projekta.</li>
+									<li><b>Tara Petrović</b>, Građanske inicijative, na poziciji istraživačice pripravnice, zadužena za podršku u istraživanju i koordinaciji rada koalicije, izradi izveštaja i zagovaračkih akcija.</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</main>
+	<!-- js -->
+	<script src="./js/jquery.js"></script>
+	<script src="./js/datatables.js"></script>
+	<script src="./js/parser.js"></script>
+	<script src="./js/autocomplete.js"></script>
+	<script src="./js/nice-select2.js"></script>
+	<script src="https://d3js.org/d3.v4.min.js"></script>
+	<script src="./js/main.js?version=1.10" type="text/javascript" ></script>
+	<script src="./js/select2.min.js"></script>
+	<script src="./js/table.projects.js?version=1.42" type="text/javascript" ></script>
+</body>
+</html>
