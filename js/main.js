@@ -115,7 +115,7 @@ function joinPie() {
                     valueIznos21 = d.data.Iznos2021.split('.').join("");
                 }
                 if(y4checked){
-                    valueIznos21 = d.data.Iznos2022.split('.').join("");
+                    valueIznos22 = d.data.Iznos2022.split('.').join("");
                 }
                 if(!y1checked && !y2checked && !y3checked && !y4checked) {
                     d3.select("#year2019").property('checked', true);
